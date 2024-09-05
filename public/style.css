@@ -1,0 +1,52 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    background-image: url(./images/El-Clima-hoy.webp);
+    background-size: cover;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.container {
+    background-color: #d2b8b8;
+    padding: 30px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    flex-direction: column-reverse;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: calc(100% - 22px);  /* Ajustar al tamaño del contenedor */
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+ }
